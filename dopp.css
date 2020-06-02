@@ -1,0 +1,227 @@
+
+  html,body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: #6A6A6A;
+    background: #fff;
+    box-sizing:content-box;
+    position:relative;
+    width:100%;
+    height:100%;
+    overflow-x:hidden;
+  }
+/*html {
+    overflow-x: hidden !important;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }*/
+  .spo{
+      font-size:30px;
+      font-family: geneva;
+  }
+  a:hover{
+      text-decoration:none;
+      color:darkturquoise;
+  }
+  
+  .footer{
+      background-color:gray;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #d{
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size:20px;
+      color:turquoise;
+  }
+  #headingOne,#headingTwo,#headingThree,#headingFour{
+      border:none;
+      margin:10px;
+  }
+  #boo{
+      border:none;
+  }
+.img{
+    background-color:red;
+}
+.nav-link{
+    font-size:18px;
+    margin:10px;
+}
+.nav-link:hover{
+    color:turquoise;
+}
+#name,#phone,#email,#affair,#textarea{
+width:200%;
+background-color:white;
+padding:10px;
+margin-left:20px;
+
+}
+.p{
+    color:firebrick;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#info{
+    padding:5px;
+    margin:5px;
+    transition:color, background-color;
+    transition-duration:2s;
+    cursor:pointer;
+}
+#info:hover{
+    color:blue;
+    background-color:teal;
+    box-shadow:5px 5px powderblue;
+}
+.ho{
+font-size:20px;
+}
+.section1{
+    background-image:url("clean3.jpg");
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.comment{
+    background-image:url("workplace.jpg");
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100%;
+    }
+.fish{
+    height:200px;
+    }
+.p{
+    margin:10px;
+}
+.rounded-circle{
+    height:200px;
+    width:150px;
+}
+.gh{
+    width:100%;
+    height:80%;
+}
+h5{
+    margin:20px;
+}
+.section3{
+    background-image:url(".jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    height:150%;
+}
+.section2{
+    background-image:url(".jpg");
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    height:150%;
+}
+.section7{
+    
+    background-image:url("clean3.jpg");
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:300%;
+}
+.contact{
+    background-color:yellow;
+    padding:10px;
+}
+nav{
+    color:skyblue;
+}
+.h3,h5{
+    margin:10px;
+    padding:10px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+}
+h3{
+    color:white;
+    font-size:25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:20px;
+    padding:10px;
+}
+
+#btn{
+    padding:10px;
+    margin:40px;
+}
+.h4{
+    font-size:30px;
+    font-family:monospace;
+    color:white;
+    padding:20px;
+}
+#btn-primary{
+    background-color:blue;
+    color:white;
+    width:50%;
+    border-radius:10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.fo{
+    float:right;
+}
+.contact{
+    background-image:url("clean2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+#icon{
+    width:25px;
+}
+.btn-link{
+    color:black;   
+}
+.btn-link:hover{
+    text-decoration:none;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+@media only screen and (min-width: 320px){
+    
+  body {
+      padding:0%;
+      margin:0%;
+      box-sizing:content-box;
+  }
+}
